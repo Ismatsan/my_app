@@ -14,7 +14,7 @@ const Posts = () => {
                             src="https://www.w3schools.com/w3images/workshop.jpg"
                             alt="Image"
                             className="w3-left w3-margin-right"
-                            style={{width: 50}}
+                            style={{width: "50px"}}
                         />
                         <span className="w3-large">Lorem</span>
                         <br/>
@@ -25,7 +25,7 @@ const Posts = () => {
                             src="https://www.w3schools.com/w3images/gondol.jpg"
                             alt="Image"
                             className="w3-left w3-margin-right"
-                            style={{width: 50}}
+                            style={{width: "50px"}}
                         />
                         <span className="w3-large">Ipsum</span>
                         <br/>
@@ -36,7 +36,7 @@ const Posts = () => {
                             src="https://www.w3schools.com/w3images/skies.jpg"
                             alt="Image"
                             className="w3-left w3-margin-right"
-                            style={{width: 50}}
+                            style={{width: "50px"}}
                         />
                         <span className="w3-large">Dorum</span>
                         <br/>
@@ -47,7 +47,7 @@ const Posts = () => {
                             src="https://www.w3schools.com/w3images/rock.jpg"
                             alt="Image"
                             className="w3-left w3-margin-right"
-                            style={{width: 50}}
+                            style={{width: "50px"}}
                         />
                         <span className="w3-large">Mingsum</span>
                         <br/>
