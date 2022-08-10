@@ -42,7 +42,7 @@ const Post2 = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
 export default Post2;

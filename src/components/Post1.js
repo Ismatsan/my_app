@@ -43,7 +43,7 @@ const Post1 = () => {
             </div>
             <hr/>
         </>
-    )
-}
+    );
+};
 
 export default Post1;
