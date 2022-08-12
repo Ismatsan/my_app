@@ -1,11 +1,7 @@
 import React from 'react';
 
-const Title = () => {
-    return (
-            <div className="w3-container w3-padding">
-                <h4>Popular Posts</h4>
-            </div>
-    );
-}
+const Title = (props) => {
+    return <h1 style={ {color:props.color, fontSize:props.size} }>{ props.text }</h1>
+};
 
 export default Title;
