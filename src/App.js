@@ -3,7 +3,9 @@ import Header from "./components/Header";
 import BlogEntries from "./components/BlogEntries";
 import IntroductionMenu from "./components/IntroductionMenu";
 import Footer from "./components/Footer";
-import State from "./components/State";
+import Alert from "./components/Alert";
+import Like from "./components/Like";
+
 
 const App = () => {
     return (
@@ -16,7 +18,8 @@ const App = () => {
                 </div>
             </div>
             <Footer/>
-            <State/>
+            <Like/>
+            <Alert/>
         </>
     )
 }

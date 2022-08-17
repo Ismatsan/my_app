@@ -36,6 +36,15 @@ const Post = (props) => {
             <hr/>
         </>
     );
-};
+}
+
+Post.defaultProps ={
+    img:'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8NDA0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    title:'default title',
+    title_desc:'default title desc',
+    created_date:'default created date',
+    desc:'default desc',
+    count_comments:'default count comments'
+}
 
 export default Post;

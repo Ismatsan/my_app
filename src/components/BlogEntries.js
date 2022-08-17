@@ -40,6 +40,8 @@ const BlogEntries = () =>{
                 desc ={posts[1].desc}
                 count_comments ={posts[1].count_comments}
             />
+            <Post/>
+            <Post title="этот title из родителя"/>
         </div>
     )
 }
