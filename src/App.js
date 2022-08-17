@@ -5,6 +5,7 @@ import IntroductionMenu from "./components/IntroductionMenu";
 import Footer from "./components/Footer";
 import Alert from "./components/Alert";
 import Like from "./components/Like";
+import LikeWinder from "./components/LikeWinder";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             </div>
             <Footer/>
             <Like/>
+            <LikeWinder/>
             <Alert/>
         </>
     )
