@@ -17,11 +17,12 @@ const App = () => {
                     <BlogEntries/>
                     <IntroductionMenu/>
                 </div>
+                <Alert/>
             </div>
             <Footer/>
             <Like/>
             <LikeWinder/>
-            <Alert/>
+
         </>
     )
 }

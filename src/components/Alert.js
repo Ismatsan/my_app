@@ -1,25 +1,37 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const style = {
-    backgroundColor: "#dff0d8",
-    marginRight: "980px",
-    padding: "15px",
+    width:"705px",
+    height:"58px",
+    backgroundColor: "#cff4fc",
+    borderColor:"#b6effb",
+    marginLeft: "68px",
+    padding: "5px",
     display: "flex",
     justifyContent: "center",
-    alignItems: "center",
-    border: "#d6e9c6",
     color: "#3c763d",
-    borderRadius: "4px",
+    borderRadius: "5px",
+    cursor: "pointer"
+}
+const style1 = {
+    width:"700px",
+    backgroundColor: "#cff4fc",
+    borderColor:"transparent",
+    borderRadius: "5px",
     cursor: "pointer"
 }
 
-const Alert = (props) => {
+const Alert = () => {
+    const [text, setText] = useState('A simple info alert—check it out!');
     return (
-            <div style={style} className="alert">
-                <button id="btn1" className="alert-info">
-                    A simple info alert—check it out!
-                </button>
-            </div>
+        <div style={style} >
+            <button style={style1} onClick={() => {
+                setText('Сегодня будет солнечно!')
+            } }>
+                <p>{ text }</p>
+            </button>
+
+        </div>
     )
 }
 
