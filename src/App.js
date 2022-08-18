@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Alert from "./components/Alert";
 import Like from "./components/Like";
 import LikeWinder from "./components/LikeWinder";
+import HideText from "./components/HideText";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
                 <Alert/>
             </div>
             <Footer/>
+            <HideText/>
             <Like/>
             <LikeWinder/>
 

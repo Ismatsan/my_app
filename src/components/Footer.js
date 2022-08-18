@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Footer = () => {
     return (
@@ -9,6 +10,7 @@ const Footer = () => {
                 <button className="w3-button w3-black w3-padding-large w3-margin-bottom">
                     Next »
                 </button>
+                <Button/>
                 <p>
                     Powered by{" "}
                     <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
