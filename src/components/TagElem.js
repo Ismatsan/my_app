@@ -10,4 +10,8 @@ const TagElem = (props) => {
     )
 };
 
+TagElem.defaultProps ={
+    title:'default title'
+}
+
 export default TagElem;
