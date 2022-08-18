@@ -1,5 +1,47 @@
 import React from "react";
+import TagElem from "./TagElem";
 
+const info =[
+    {
+        title:'New York'
+    },
+    {
+        title:'London'
+    },
+    {
+        title:'IKEA'
+    },
+    {
+        title:'NORWAY'
+    },
+    {
+        title:'DIY'
+    },
+    {
+        title: 'Ideas'
+    },
+    {
+        title:'Baby'
+    },
+    {
+        title:'Family'
+    },
+    {
+        title:'News'
+    },
+    {
+        title:'Clothing'
+    },
+    {
+        title:'Shopping'
+    },
+    {
+        title:'Sports'
+    },
+    {
+        title:'Games'
+    }
+]
 const Tags = () => {
     return (
         <>
@@ -10,45 +52,19 @@ const Tags = () => {
                 <div className="w3-container w3-white">
                     <p>
                         <span className="w3-tag w3-black w3-margin-bottom">Travel</span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            New York
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            London
-          </span>
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            IKEA
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            NORWAY
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            DIY
-          </span>
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Ideas
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Baby
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Family
-          </span>
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            News
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Clothing
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Shopping
-          </span>
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Sports
-          </span>{" "}
-                        <span className="w3-tag w3-light-grey w3-small w3-margin-bottom">
-            Games
-          </span>
+                        <TagElem title={info[0].title}/>
+                        <TagElem title={info[1].title}/>
+                        <TagElem title={info[2].title}/>
+                        <TagElem title={info[3].title}/>
+                        <TagElem title={info[4].title}/>
+                        <TagElem title={info[5].title}/>
+                        <TagElem title={info[6].title}/>
+                        <TagElem title={info[7].title}/>
+                        <TagElem title={info[8].title}/>
+                        <TagElem title={info[9].title}/>
+                        <TagElem title={info[10].title}/>
+                        <TagElem title={info[11].title}/>
+                        <TagElem title={info[12].title}/>
                     </p>
                 </div>
             </div>
