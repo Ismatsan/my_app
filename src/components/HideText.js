@@ -7,29 +7,30 @@ const style = {
     display: "flex",
     justifyContent: "center",
     color: "#3c763d",
-    cursor: "pointer"
 }
 
 const style1 = {
-    backgroundColor: "#0da5c6",
+    width:"115px",
+    backgroundColor: "#73cfe3",
     borderColor: "#b6effb",
+    cursor: "pointer",
     borderRadius: "5px"
 }
 
 const HideText = () => {
     const [text, setText] = useState('Lorem ipsum dolor sit amet consectetur adipisicing.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.');
     return (
-        <div>
+        <>
             <div style={style} >
                 <button style={style1} onClick={() => {
-                    setText('  ')
+                    setText(' ')
                 } }>
                     HideText
                 </button>
 
             </div>
             <p>{ text }</p>
-        </div>
+        </>
     );
 };
 

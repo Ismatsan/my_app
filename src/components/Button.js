@@ -9,17 +9,7 @@ const style ={
     hoverBackground:"#0b5ed7",
     hoverBorderColor:"#0a58ca",
     focusShadowRGB: "49,132,253",
-    cursor:"pointer"
-}
-
-const converted = {
-    Color: "#fff",
-    Background: "#0d6efd",
-    borderColor: "#0d6efd",
-    hoverColor: "#fff",
-    hoverBackground: "#0b5ed7",
-    hoverBorderColor: "#0a58ca",
-    focusShadowRGB: "49,132,253",
+    cursor:"pointer",
     activeColor: "#fff",
     ActiveBackground: "#0a58ca",
     ActiveBorderColor: "#0a53be",
@@ -29,12 +19,22 @@ const converted = {
     DisabledBorderColor: "#0d6efd"
 }
 
+const converted = {
+    Color: "#fff",
+    hoverColor: "#fff",
+    hoverBackground: "#0b5ed7",
+    hoverBorderColor: "#0a58ca",
+    focusShadowRGB: "49,132,253",
+
+}
+
 const Button = () => {
     return (
         <div>
             <button style={ style } className="btn btn-primary" type="submit">
                 Button
             </button>
+            <hr/>
             <a style={ converted } className="btn btn-primary" href="#" role="button">
                 Link
             </a>
