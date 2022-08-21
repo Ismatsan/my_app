@@ -1,11 +1,11 @@
 import React from 'react';
 import PopularPostElem from "./PopularPostElem"
-import posts from "./../constans/posts";
+import popularPosts from "../constans/popularPosts";
 
 
 
 const PopularPosts = () => {
-    const elems=posts.map((item,index) => {
+    const elems=popularPosts.map((item,index) => {
         return <PopularPostElem
             key={index}
             img={item.img}
