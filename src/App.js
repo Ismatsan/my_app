@@ -7,7 +7,7 @@ import Alert from "./components/Alert";
 import Like from "./components/Like";
 import LikeWinder from "./components/LikeWinder";
 import HideText from "./components/HideText";
-
+import "./App.css"
 
 const App = () => {
     return (

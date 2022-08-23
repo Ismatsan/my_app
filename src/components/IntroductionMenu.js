@@ -1,6 +1,6 @@
 import React from 'react';
 import About from "./About";
-import PopularPosts from "./PopularPosts";
+import PopularPosts from "./PopularPosts/PopularPosts";
 import Tags from "./Tags";
 
 const IntroductionMenu = () => {

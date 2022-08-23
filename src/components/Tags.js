@@ -1,9 +1,9 @@
 import React from "react";
 import TagElem from "./TagElem";
-import tags from "./../constans/tags";
+import tags from "../constants/tags";
 
-const Tags = () =>{
-    const elems =tags.map((item, index) => {
+const Tags = () => {
+    const elems = tags.map((item, index) => {
         return <TagElem
             key={index}
             title={item.title}

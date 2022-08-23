@@ -1,4 +1,4 @@
-const posts = [
+const popularPosts = [
     {
         img:'https://www.w3schools.com/w3images/woods.jpg',
         title:'TITLE HEADING',
@@ -17,4 +17,4 @@ const posts = [
     }
 ]
 
-export default posts;
+export default popularPosts;
