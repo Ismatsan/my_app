@@ -40,7 +40,7 @@ const Form = () => {
                 <input
                     type="tel"
                     id="contactNumber"
-                    style={{ width: "184px", margin:"6px 12px 6px 0"}}
+                    style={{ width: "184px", margin:"6px 20px 6px 0"}}
                     placeholder="Контактный номер"
                 />
                 <input
@@ -50,7 +50,7 @@ const Form = () => {
                     placeholder="Электронный адресс"
                 />
                 <label htmlFor="Country" />
-                <select id={style.Country}>
+                <select id={style.country}>
                     <option value="">Откуда Вы?</option>
                     <option value="KGS">Кыргызстан</option>
                     <option value="KAZ">Казахстан</option>

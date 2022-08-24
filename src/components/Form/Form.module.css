@@ -24,15 +24,15 @@
     background-color: #f1f1f1
 }
 
-#Country{
+#country{
     width: 186px;
     height: 23px;
 }
 
 .btn{
-    width: 382px;
+    width: 388px;
     height: 48px;
-    background: #232529;
+    background: darkblue;
     border-radius: 6px;
     border: 0;
     font-weight: 700;
@@ -57,7 +57,7 @@
 }
 
 form{
-    padding: 0 0 0 16px;
+    padding: 0 0 0 8px;
 }
 
 /*.empty-field{*/
