@@ -3,12 +3,13 @@ import PopularPostElem from "../PopularPostElem"
 import posts from "../../constants/posts";
 import style from "./PopularPosts.module.css";
 
+
 const PopularPosts = () => {
     let popularPosts =posts;
     let btnMore = null;
     if (posts.length > 10){
-        popularPosts = posts.slice(0,10);
-        btnMore =<button className={btnMore}>Еще</button>;
+        popularPosts = posts.slice(0, 10);
+        btnMore =<button className="btn-more">Еще</button>;
     }
 
     return (

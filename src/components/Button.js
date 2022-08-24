@@ -36,7 +36,7 @@ const Button = () => {
             </button>
             <hr/>
             <a style={ converted } className="btn btn-primary" href="#" role="button">
-                Link
+                Вверх
             </a>
         </div>
     );

@@ -2,6 +2,8 @@ import React from 'react';
 import About from "./About";
 import PopularPosts from "./PopularPosts/PopularPosts";
 import Tags from "./Tags";
+import Form from "./Form/Form";
+
 
 const IntroductionMenu = () => {
     return (
@@ -9,6 +11,7 @@ const IntroductionMenu = () => {
             <About/>
             <PopularPosts/>
             <Tags/>
+            <Form/>
         </div>
     )
 }

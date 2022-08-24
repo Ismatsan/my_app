@@ -18,6 +18,8 @@ const BlogEntries = () =>{
     return(
         <div className="w3-col l8 s12">
             {elems}
+            <Post/>
+            <Post title="этот title из родителя"/>
         </div>
     )
 }
