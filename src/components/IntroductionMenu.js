@@ -3,6 +3,7 @@ import About from "./About";
 import PopularPosts from "./PopularPosts/PopularPosts";
 import Tags from "./Tags";
 import Form from "./Form/Form";
+import Link from "./Link/Link";
 
 
 const IntroductionMenu = () => {
@@ -12,6 +13,7 @@ const IntroductionMenu = () => {
             <PopularPosts/>
             <Tags/>
             <Form/>
+            <Link/>
         </div>
     )
 }

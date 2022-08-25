@@ -4,7 +4,7 @@ import style from "./Form.module.css";
 const Form = () => {
     return (
         <div className={style.card}>
-            <form id={style.form} action="javascript:void(0)">
+            <form className={style.form} action="javascript:void(0)">
                 <h2>Обратная связь</h2>
                 <h4>Заполните форму</h4>
                 <div className={style.box}>
@@ -50,7 +50,7 @@ const Form = () => {
                     placeholder="Электронный адресс"
                 />
                 <label htmlFor="Country" />
-                <select id={style.country}>
+                <select className={style.country}>
                     <option value="">Откуда Вы?</option>
                     <option value="KGS">Кыргызстан</option>
                     <option value="KAZ">Казахстан</option>

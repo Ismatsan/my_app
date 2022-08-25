@@ -19,14 +19,15 @@
     margin-bottom: 12px;
 }
 
-#form h2{
+.form h2{
     color: darkblue;
     background-color: #f1f1f1
 }
 
-#country{
+.country{
     width: 186px;
     height: 23px;
+    color: GrayText;
 }
 
 .btn{
