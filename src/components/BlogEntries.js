@@ -1,9 +1,9 @@
 import React from "react";
 import Post from "./Post";
-import popularPosts from "../constants/popularPosts";
+import posts from "../constants/posts";
 
 const BlogEntries = () =>{
-    const elems = popularPosts.map((item, index) => {
+    const elems = posts.map((item, index) => {
             return <Post
                 key={index}
                 img={item.img}

@@ -1,20 +1,75 @@
-const popularPosts = [
+
+const data = [
     {
-        img:'https://www.w3schools.com/w3images/woods.jpg',
-        title:'TITLE HEADING',
-        title_desc:'Title description',
-        created_date:'April 7, 2014',
-        desc:'Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.',
-        count_comments:0
+        img: 'https://www.w3schools.com/w3images/workshop.jpg',
+        title: 'Популярный пост №1',
+        desc: 'Sed mattis nunc'
     },
     {
-        img: 'https://www.w3schools.com/w3images/bridge.jpg',
-        title: 'BLOG ENTRY',
-        title_desc: 'Title description',
-        created_date: 'April 2, 2014',
-        desc: "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
-        count_comments:2
+        img: 'https://www.w3schools.com/w3images/gondol.jpg',
+        title: 'Популярный пост №2',
+        desc: 'Praes tinci sed'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/skies.jpg',
+        title: 'Популярный пост №3',
+        desc: 'Ultricies congue'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №4',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №5',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №6',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №7',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №8',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №9',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №10',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №11',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №12',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №13',
+        desc: 'Lorem ipsum dipsum'
+    },
+    {
+        img: 'https://www.w3schools.com/w3images/rock.jpg',
+        title: 'Популярный пост №14',
+        desc: 'Lorem ipsum dipsum'
     }
 ]
 
-export default popularPosts;
+export default data;

@@ -1,43 +1,5 @@
-const info =[
-    {
-        title:'New York'
-    },
-    {
-        title:'London'
-    },
-    {
-        title:'IKEA'
-    },
-    {
-        title:'NORWAY'
-    },
-    {
-        title:'DIY'
-    },
-    {
-        title: 'Ideas'
-    },
-    {
-        title:'Baby'
-    },
-    {
-        title:'Family'
-    },
-    {
-        title:'News'
-    },
-    {
-        title:'Clothing'
-    },
-    {
-        title:'Shopping'
-    },
-    {
-        title:'Sports'
-    },
-    {
-        title:'Games'
-    }
+const tags = [
+    "Travel",'New York','London','IKEA','NORWAY','DIY','Ideas','Baby','Family','News','Clothing','Shopping','Sports','Games'
 ]
 
-export default info;
+export default tags;

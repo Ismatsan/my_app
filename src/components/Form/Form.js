@@ -4,7 +4,7 @@ import style from "./Form.module.css";
 const Form = () => {
     return (
         <div className={style.card}>
-            <form className={style.form} action="javascript:void(0)">
+            <form className={style.form}>
                 <h2>Обратная связь</h2>
                 <h4>Заполните форму</h4>
                 <div className={style.box}>
@@ -49,7 +49,6 @@ const Form = () => {
                     style={{ width: "184px" }}
                     placeholder="Электронный адресс"
                 />
-                <label htmlFor="Country" />
                 <select className={style.country}>
                     <option value="">Откуда Вы?</option>
                     <option value="KGS">Кыргызстан</option>
@@ -62,7 +61,7 @@ const Form = () => {
                 <textarea
                     id="userMsg"
                     style={{ width: "100%" }}
-                    placeholder="Введите сообшение"
+                    placeholder="Напишите Ваш отзыв или предложение"
                     defaultValue={""}
                 />
                 <button type="submit" id="next" className={style.btn}>

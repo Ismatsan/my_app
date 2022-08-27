@@ -1,0 +1,22 @@
+.sender {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sender:hover{
+    color: #fff;
+    background: darkgray;
+    border-color: #0a58ca;
+    box-shadow: 4px 0 20px 3px grey;
+}
+
+.card{
+    width: 417px;
+    height: 38px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 186px;
+    margin: 16px;
+    margin-block: 34px;
+}

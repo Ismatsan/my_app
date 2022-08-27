@@ -1,6 +1,6 @@
 import React from 'react';
 import PopularPostElem from "../PopularPostElem"
-import posts from "../../constants/posts";
+import posts from "../../constants/popularPosts";
 import style from "./PopularPosts.module.css";
 
 
